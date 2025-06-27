@@ -60,5 +60,18 @@ btnSiguiente.addEventListener("click", () => {
     }
 });
 
-// Mostrar la primera página
 mostrarPagina();
+
+
+////// boton de cringe
+const botonCringe = document.querySelector('.boton-cringe');
+
+botonCringe.addEventListener('click', () => {
+    document.body.classList.toggle('simple-mode');
+
+    if (document.body.classList.contains('simple-mode')) {
+        botonCringe.textContent = 'Modo amor';
+    } else {
+        botonCringe.textContent = '0 cringe';
+    }
+});

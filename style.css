@@ -109,6 +109,27 @@ button:disabled {
     cursor: not-allowed;
 }
 
+.boton-cringe {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 999;
+}
+
+.boton-cringe:hover {
+    background-color: #ff85c1;
+}
+
+
 @media (max-width: 480px) {
     .libro {
         height: 300px;
@@ -126,4 +147,43 @@ button:disabled {
     .libro {
         font-size: 1.05rem;
     }
+}
+
+/*MODO 0 CRINGE*/
+body.simple-mode {
+    background: #f9fff9 !important;
+    font-family: 'Georgia', serif;
+    color: #1b1b1b;
+}
+
+body.simple-mode::before,
+body.simple-mode::after {
+    display: none;
+}
+
+body.simple-mode .libro {
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    color: #1b1b1b;
+    font-size: 1.05rem;
+    border-radius: 8px;
+}
+
+body.simple-mode .botones button {
+    background: #333;
+    color: #fff;
+}
+
+body.simple-mode .botones button:hover:not(:disabled) {
+    background: #555;
+}
+
+body.simple-mode .boton-cringe {
+    background: #333;
+    color: #fff;
+}
+
+body.simple-mode h1 {
+    color: black;
 }
