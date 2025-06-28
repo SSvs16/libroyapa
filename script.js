@@ -4,7 +4,7 @@ const paginas = [
     <strong>Jamás</strong> me atrevería a lastimar a la niña que me dio esta oportunidad.<br>
     <strong>Jamás</strong> te decepcionaré, lo prometo.<br><br><br>
     Te amo con toda mi alma.`,
-    "<strong>27 de junio, 2025</strong><br>No hubo mucho que decir de este día, no hablamos casi, pero siempre te tuve en mente. Cuando escribo esto, tú estás en el concierto. Espero que te la hayas pasado increíble. Tengo sueño desde las 8:00, pero voy a esperar a que salgas para que me cuentes aunque sea un poquito cómo te fue.<br><br> Te quiero mas que ayer.",
+    "<strong>27 de junio, 2025</strong><br>No hubo mucho que decir de este día, no hablamos casi, pero siempre te tuve en mente. Cuando escribo esto, tú estás en el concierto. Espero que te la hayas pasado increíble. Tengo sueño como desde las 6:00, pero voy a esperar a que salgas para que me cuentes aunque sea un poquito cómo te fue.<br><br> Te quiero mas que ayer.",
     "<strong>28 de junio, 2025</strong><br>Espérate, ok.",
     "<strong>29 de junio, 2025</strong><br>Espérate, ok.",
     "<strong>30 de junio, 2025</strong><br>Espérate, ok.",
